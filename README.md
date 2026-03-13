@@ -87,13 +87,13 @@ Shelly Plus Plug S  →  HTTP REST polling (shelly-bridge.py)
 
 ```
 .
-├── file_ontologia/               # DTDL JSON ontology models
+├── ontology_files/               # DTDL JSON ontology models
 │   ├── BDT.json                  #   Building Digital Twin model
 │   ├── ODT.json                  #   Object Digital Twin model
 │   ├── PDT.json                  #   Personal Digital Twin model
 │   └── ...                       #   Additional entity models
 │
-├── codici_eINS/                  # IoT acquisition scripts
+├── acquisition/                  # IoT acquisition scripts
 │   ├── client_tuya.py            #   Tuya MQTT client
 │   ├── mqtt_rasp.py              #   Raspberry Pi MQTT collector (Shelly)
 │   ├── mqtt_windows_smartplug.py #   Windows MQTT collector (Shelly Plug S)
@@ -101,19 +101,12 @@ Shelly Plus Plug S  →  HTTP REST polling (shelly-bridge.py)
 │   ├── shelly-bridge.py          #   Shelly → Azure IoT Hub bridge
 │   └── TEST_TELEMETRY.py         #   Azure IoT Hub telemetry test
 │
-├── Dashboard/                    # Flask web application
-│   ├── app.py                    #   Flask routes (/example, /getdata2, /getdata3, ...)
-│   ├── templates/
-│   │   └── index.html            #   Main dashboard page (appliance visualisation)
-│   └── static/
-│       ├── styles.css
-│       ├── script.js
-│       ├── coffee_machine.png
-│       └── washing_machine.png
-│
-├── Tutorial_HA/                  # Home Assistant integration guide (Phase 1)
-├── passwd_mosquitto_raspberry.txt # Mosquitto hashed password file
-└── README.md
+├── iot_devices/
+│   ├── client_tuya.py              # Tuya device MQTT subscriber
+│   ├── mqtt_rasp.py                # Raspberry-side MQTT logger (Shelly devices)
+│   ├── mqtt_windows_h&t.py         # Windows-side H&T sensor logger
+│   ├── mqtt_windows_smartplug.py   # Windows-side smart plug logger
+│   └── shelly-bridge.py            # Shelly Plug → Azure IoT Hub bridge
 ```
 
 ---
