@@ -1,0 +1,45 @@
+{
+    "@id": "dtmi:example:BDT:ODT:Object;1",
+    "@type": "Interface",
+    "displayName": "Object",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Object",
+          "schema": "string"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is",
+          "displayName": "is"
+        },
+       
+        {
+          "@type": "Relationship",
+          "name": "connects",
+          "displayName": "connects"
+        },
+        {
+            "@type": "Relationship",
+            "name": "communicates",
+            "displayName": "communicates"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is_contained",
+          "displayName": "is contained"
+        },
+        {
+          "@type": "Relationship",
+          "name": "has",
+          "displayName": "has"
+        },
+        {
+            "@type": "Relationship",
+            "name": "measures",
+            "displayName": "measures"
+          }
+        
+    ]
+  }

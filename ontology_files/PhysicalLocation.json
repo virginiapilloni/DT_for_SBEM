@@ -1,0 +1,25 @@
+{
+  "@id": "dtmi:example:Person:PDT:PhysicalLocation;1",
+  "@type": "Interface",
+  "displayName": "PhysicalLocation",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Building",
+      "schema": "string"
+     },
+     {
+      "@type": "Property",
+      "name": "Floor",
+      "schema": "integer"
+     },
+     {
+      "@type": "Property",
+      "name": "Room",
+      "schema": "string"
+     }
+    
+        
+  ]
+}

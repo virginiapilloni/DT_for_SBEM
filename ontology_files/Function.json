@@ -1,0 +1,33 @@
+{
+  "@id": "dtmi:example:ODT:Object:Function;1",
+  "@type": "Interface",
+  "displayName": "Function",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+
+
+    {
+      "@type": "Property",
+      "name": "Actuating",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "Sensoring",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "Controlling",
+      "schema": "boolean"
+    },
+    
+    { 
+      "@type": "Property",
+      "name": "Interfacing",
+      "schema": "boolean"
+    }
+    
+        
+  ]
+}

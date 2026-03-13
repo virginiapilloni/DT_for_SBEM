@@ -1,0 +1,39 @@
+{
+    "@id": "dtmi:example:Room;1",
+    "@type": "Interface",
+    "displayName": "Room",
+    "@context": ["dtmi:dtdl:context;3","dtmi:dtdl:extension:quantitativeTypes;1"
+    ],
+    
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Room",
+          "schema": "string"
+
+        },
+        {
+          "@type": "Relationship",
+          "@id":"dtmi:example:Room:has_ODT;1",
+          "name": "has_ODT",
+          "displayName": "has_ODT",
+          "target":"dtmi:example:ODT;1"
+        },
+        {
+          "@type": "Relationship",
+          "@id":"dtmi:example:Room:has_PDT;1",
+          "name": "has_PDT",
+          "displayName": "has_PDT",
+          "target":"dtmi:example:PDT;1"
+        }
+      
+         
+        
+        ]
+        
+      
+      
+    
+      
+    
+  }

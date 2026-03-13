@@ -1,0 +1,25 @@
+{
+    "@id": "dtmi:example:ODT:Appliance;1",
+    "@type": "Interface",
+    "displayName": "Appliance",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Appliance",
+          "schema": "string"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is",
+          "displayName": "is"
+        },
+       
+        {
+          "@type": "Relationship",
+          "name": "performs",
+          "displayName": "performs"
+        }
+        
+    ]
+  }

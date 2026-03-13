@@ -1,0 +1,33 @@
+{
+    "@id": "dtmi:example:BDT;1",
+    "@type": "Interface",
+    "displayName": "BDT",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "BDT",
+          "schema": "string"
+        },
+      {
+        "@type": "Relationship",
+        "name": "contains",
+        "displayName": "contains"
+      },
+      {
+        "@type": "Relationship",
+        "name": "has",
+        "displayName": "has"
+      },
+      {
+        "@type": "Relationship",
+        "name": "interacts",
+        "displayName": "interacts"
+      },
+      {
+        "@type": "Relationship",
+        "name": "is",
+        "displayName": "is"
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:example:Person:PDT:Behaviour:Habit;1",
+    "@type": "Interface",
+    "displayName": "Habit",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Habit",
+            "schema": "string"
+          }
+          
+        
+        
+    ]
+  }

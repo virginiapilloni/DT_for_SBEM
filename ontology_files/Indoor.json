@@ -1,0 +1,37 @@
+{
+    "@id": "dtmi:example:BDT:Indoor;1",
+    "@type": "Interface",
+    "displayName": "Indoor",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "monitors",
+            "displayName": "monitors", 
+            "target":"dtmi:example:BDT:Parameter;1"
+          },
+          
+          {
+
+            "@type": "Property",
+            "name": "Indoor",
+            "schema": "string"
+          },
+          {
+            "@type": "Property",
+            "name": "Floor",
+            "schema": "integer"
+          }
+
+              
+              
+   ]
+            
+        
+    
+            
+}
+        
+        
+    
+  

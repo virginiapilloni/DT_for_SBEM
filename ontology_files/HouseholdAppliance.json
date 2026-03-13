@@ -1,0 +1,52 @@
+{
+    "@id": "dtmi:example:ODT:Appliance:Task;1",
+    "@type": "Interface",
+    "displayName": "Task",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Task",
+          "schema": {
+            "@type": "Object",
+            "fields": [
+              {
+                "name": "Heating",
+                "schema": "string"
+              },
+              {
+                "name": "Cleaning",
+                "schema": "string"
+              },
+              {
+                "name": "Comfort",
+                "schema": "string"
+              },
+              {
+                "name": "Cooling",
+                "schema": "string"
+              },
+              {
+                "name": "Drying",
+                "schema": "string"
+              },
+              {
+                "name": "Lighting",
+                "schema": "string"
+              },
+              {
+                "name": "Safety",
+                "schema": "string"
+              },
+              {
+                "name": "Washing",
+                "schema": "string"
+              }
+              
+
+            ]
+          }
+        }
+        
+    ]
+  }

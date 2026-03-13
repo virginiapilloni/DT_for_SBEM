@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:example:Person:PDT:Behaviour;1",
+    "@type": "Interface",
+    "displayName": "Behaviour",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "Behaviour",
+            "schema": "string"
+          },
+          {
+            "@type": "Relationship",
+            "name": "from",
+            "displayName": "from" 
+          }
+        
+        
+    ]
+  }

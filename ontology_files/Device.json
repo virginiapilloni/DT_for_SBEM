@@ -1,0 +1,41 @@
+{
+  "@id": "dtmi:example:ODT:Object:Device;1",
+  "@type": "Interface",
+  "displayName": "Device",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "performs",
+      "displayName": "performs", 
+      "target":"dtmi:example:ODT:Object:Function;1"
+    },
+    {
+      "@type": "Property",
+      "name": "Actuator",
+      "schema": "string"
+     },
+     {
+      "@type": "Property",
+      "name": "Sensor",
+      "schema": "string"
+     },
+     {
+      "@type": "Property",
+      "name": "Controller",
+      "schema": "string"
+     },
+     {
+      "@type": "Property",
+      "name": "Name",
+      "schema": "string"
+     },
+     {
+      "@type": "Property",
+      "name": "Id",
+      "schema": "string"
+     }
+      
+        
+    ]
+  }

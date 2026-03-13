@@ -1,0 +1,40 @@
+{
+    "@id": "dtmi:example:BDT:Outdoor:Localization;1",
+    "@type": "Interface",
+    "displayName": "Localization",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Localization",
+          "schema": {
+            "@type": "Object",
+            "fields": [
+              {
+                "name": "nation",
+                "schema": "string"
+              },
+              {
+                "name": "state",
+                "schema": "string"
+              },
+              {
+                "name": "city",
+                "schema": "string"
+              },
+              {
+                "name": "street",
+                "schema": "string"
+              },
+              {
+                "name": "address",
+                "schema": "integer"
+              }
+              
+
+            ]
+          }
+        }
+        
+    ]
+  }

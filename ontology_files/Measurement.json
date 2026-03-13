@@ -1,0 +1,44 @@
+{
+  "@id": "dtmi:example:BDT:Measurement;1",
+  "@type": "Interface",
+  "displayName": "Measurement",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Area",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "Current",
+      "schema": "float"
+    },
+    {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "integer"
+    },
+    
+    { 
+      "@type": "Property",
+      "name": "Illuminance",
+      "schema": "integer"
+    },
+    { 
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "float"
+    },
+    { 
+      "@type": "Property",
+      "name": "Voltage",
+      "schema": "float"
+    },
+    { 
+      "@type": "Property",
+      "name": "Power",
+      "schema": "float"
+    }   
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "@id": "dtmi:example:Time;1",
+    "@type": "Interface",
+    "displayName": "Time",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "duration",
+        "schema": "float"
+      },
+                
+      {
+        "@type": "Property",
+        "name": "start_time",
+        "schema": "integer"
+      },
+      {
+        "@type": "Property",
+        "name": "end_time",
+        "schema": "float"
+      },
+     {
+        
+        "@type": "Property",
+        "name": "schedule",
+        "schema": "float"
+      }
+                
+                
+  
+  ]
+}

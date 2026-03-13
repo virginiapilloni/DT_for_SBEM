@@ -1,0 +1,43 @@
+{
+  "@id": "dtmi:example:UnitOfMeasurement;1",
+  "@type": "Interface",
+  "displayName": "UnitOfMeasurement",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+   {
+    "@type": "Property",
+    "name": "square_meter",
+    "schema": "float"
+   },
+   {
+    "@type": "Property",
+    "name": "Ampere",
+    "schema": "float"
+   },
+   {
+    "@type": "Property",
+    "name": "percentage",
+    "schema": "integer"
+   },
+   {
+    "@type": "Property",
+    "name": "lux",
+    "schema": "integer"
+   },
+   {
+    "@type": "Property",
+    "name": "Celsius_degree",
+    "schema": "integer"
+   },
+   {
+    "@type": "Property",
+    "name": "Volt",
+    "schema": "float"
+   },
+   {
+    "@type": "Property",
+    "name": "Watt",
+    "schema": "float"
+   }
+  ]
+ }

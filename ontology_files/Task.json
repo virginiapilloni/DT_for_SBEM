@@ -1,0 +1,49 @@
+{
+  "@id": "dtmi:example:ODT:Appliance:Task;1",
+  "@type": "Interface",
+  "displayName": "Task",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "Heating",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Cleaning",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Comfort",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Cooling",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Drying",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Lightning",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Safety",
+      "schema": "boolean"
+     },
+     {
+      "@type": "Property",
+      "name": "Washing",
+      "schema": "boolean"
+     }
+  ]
+}
+      

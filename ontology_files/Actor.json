@@ -1,0 +1,13 @@
+{
+    "@id": "dtmi:example:Person:Actor;1",
+    "@type": "Interface",
+    "displayName": "Actor",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Actor",
+          "schema": "string"
+        }
+    ]
+  }

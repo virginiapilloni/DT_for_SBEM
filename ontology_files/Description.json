@@ -1,0 +1,38 @@
+{
+  "@id": "dtmi:example:Person:PDT:Description;1",
+  "@type": "Interface",
+  "displayName": "Description",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+   {
+    "@type": "Property",
+    "name": "Description",
+    "schema": "string"
+   },
+   {
+    "@type": "Property",
+    "name": "First_Name",
+    "schema": "string"
+   },
+   {
+    "@type": "Property",
+    "name": "Last_Name",
+    "schema": "string"
+   },
+   {
+    "@type": "Property",
+    "name": "age",
+    "schema": "integer"
+   },
+   {
+    "@type": "Property",
+    "name": "Role",
+    "schema": "string"
+   },
+   {
+    "@type": "Property",
+    "name": "id",
+    "schema": "string"
+   }
+  ]
+ }

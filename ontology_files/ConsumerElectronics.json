@@ -1,0 +1,14 @@
+{
+    "@id": "dtmi:example:ODT:Appliance:ConsumerElectronics;1",
+    "@type": "Interface",
+    "displayName": "ConsumerElectronics",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "ConsumerElectronics",
+          "schema": "string"
+        }
+        
+    ]
+  }

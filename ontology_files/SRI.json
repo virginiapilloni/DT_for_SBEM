@@ -1,0 +1,54 @@
+{
+    "@id": "dtmi:example:BDT:SRI;1",
+    "@type": "Interface",
+    "displayName": "SRI",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "SRI",
+          "schema": "string"
+        },
+        {
+          "@type": "Relationship",
+          "name": "EnergySaving",
+          "displayName": "EnergySaving" 
+        },
+        {
+            "@type": "Relationship",
+            "name": "Maintenance_FaultPrediction",
+            "displayName": "Maintenance_FaultPrediction_Index"
+            
+          },
+         {
+           "@type": "Relationship",
+           "name": "Comfort",
+            "displayName": "Comfort_Index"   
+         },
+        {
+            "@type": "Relationship",
+            "name": "Convenience",
+            "displayName": "Convenience_Index"
+            
+          },
+          {
+              "@type": "Relationship",
+              "name": "Health_Wellbeing",
+              "displayName": "Health_Wellbeing_Index"
+              
+            },
+            {
+                "@type": "Relationship",
+                "name": "Information",
+                "displayName": "Information_Index"
+                
+             },
+             {
+                 "@type": "Relationship",
+                 "name": "GreedFlexibility_Storage",
+                 "displayName": "GreedFlexibility_Storage_Index"
+                 
+               }
+      
+    ]
+  }

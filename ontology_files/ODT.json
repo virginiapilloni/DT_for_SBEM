@@ -1,0 +1,39 @@
+{
+    "@id": "dtmi:example:ODT;1",
+    "@type": "Interface",
+    "displayName": "ODT",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "ODT",
+          "schema": "string"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is_used",
+          "displayName": "is used "
+        },
+        {
+          "@type": "Relationship",
+          "name": "interacts",
+          "displayName": "interacts"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is",
+          "displayName": "is"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is_contained",
+          "displayName": "is contained"
+        },
+        {
+          "@type": "Relationship",
+          "name": "has",
+          "displayName": "has"
+        }
+      
+    ]
+  }

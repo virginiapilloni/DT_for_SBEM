@@ -1,0 +1,27 @@
+{
+    "@id": "dtmi:example:BDT:Outdoor;1",
+    "@type": "Interface",
+    "displayName": "Outdoor",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Outdoor",
+          "schema": "string"
+        },
+        {
+          "@type": "Relationship",
+          "name": "isLocalized",
+          "displayName": "is localized",
+          "target": "dtmi:example:BDT:Outdoor:Localization;1"
+        },
+        {
+          "@type": "Relationship",
+          "name": "monitors",
+          "displayName": "monitors",
+          "target":  "dtmi:example:BDT:Parameter;1"
+        }
+
+      
+    ]
+  }

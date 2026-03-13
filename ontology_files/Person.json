@@ -1,0 +1,25 @@
+{
+    "@id": "dtmi:example:Person;1",
+    "@type": "Interface",
+    "displayName": "Person",
+    "@context": "dtmi:dtdl:context;2",
+    "contents": [
+      {
+          "@type": "Property",
+          "name": "Person",
+          "schema": "string"
+        },
+        {
+          "@type": "Relationship",
+          "name": "is_in",
+          "displayName": "is in" 
+        },
+        {
+            "@type": "Relationship",
+            "name": "is",
+            "displayName": "is"
+            
+          }
+      
+    ]
+  }
