@@ -13,7 +13,6 @@ This repository implements a **sensor-driven Digital Twin (DT) framework** for p
 The framework was designed following a **non-intrusive philosophy**: the system delivers informative energy feedback to occupants via a dashboard without issuing direct appliance control commands.
 
 > 📄 Reference paper: *"Digital Twin Framework for Personalized Building Management in Ambient Assisted Living"* – Marcello F., Chouquir A.Y., Atzori L., Pilloni V. (2024)  
-> 📘 Reference thesis: *"Sviluppo di un modello ontologico basato sul paradigma di Digital Twin per l'efficientamento energetico negli edifici"*
 
 ---
 
@@ -411,24 +410,6 @@ Konva.js 8.3.3
   year      = {2024},
   note      = {Department of Electrical and Electronic Engineering, University of Cagliari}
 }
-
-@article{marcello2019activity,
-  author    = {Marcello, Francesca and Pilloni, Virginia and Giusto, Daniele},
-  title     = {Sensor-Based Early Activity Recognition Inside Buildings to Support Energy and Comfort Management Systems},
-  journal   = {Energies},
-  volume    = {12},
-  number    = {13},
-  pages     = {2631},
-  year      = {2019}
-}
 ```
 
 ---
-
-## Acknowledgements
-
-This work was partially supported by the European Union – NextGenerationEU (National Sustainable Mobility Center CN00000023, Italian Ministry of University and Research, Spoke 8), the Italian Ministry of Enterprises and Made in Italy (MIMIT) within the 5G technology support program – "Cagliari Digital Lab" (ID: G27F22000040008), the PRIN project HIPPOCRATES (ID: 2022YSRWEZ), and Fondazione di Sardegna – "SENeCO" project (F73C23001690007).
-
----
-
-*University of Cagliari – DIEE / Net4U Lab · WP6 Digitalisation, Smart Grids and Flexibility*
